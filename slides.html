@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Journée Dép. Bios. Montpellier, Juillet 2019</title>
+    <meta charset="utf-8" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="libs/font-awesome/css/fontawesome-all.min.css" type="text/css" />
+    <link rel="stylesheet" href="cirad.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, bottom, title-slide
+
+# Journée Dép. Bios. Montpellier, Juillet 2019
+
+---
+
+
+
+
+class: large
+
+# Plan
+
+1. Introduction
+
+2. Expériences au Cirad
+  
+  - Marie-Claude Deboin (Dgdrs-Dist)
+
+  - Manuel Ruiz (UMR AGAP, Plateforme SouthGreen)
+
+3. Session débat
+
+
+---
+class: inverse, middle, center
+
+# Introduction
+
+![:scale 60%](img/wtf.webp)
+
+---
+# Qu'est-ce que c'est ?
+
+&gt; _umbrella term for non-traditional __strategies__ and
+__technologies__ needed to gather, organize, process, and gather
+insights from __large__ or __complex__ datasets_
+
+
+- __large__ : impossible de stocker et/ou processer dans un seul
+ordinateur
+
+- __complex__ : issus de plusieurs sources et fortement structurés
+
+- Trois Vs : __V__olume, __V__elocity, __V__ariety
+
+
+
+---
+# D'autres gros mots associés
+
+- __Data science__ : Les statistiques adaptés au Big Data (+
+informatique)
+
+- __Machine Learning / Intelligence Artificielle__ : Méthodes
+__prédictifs__ qui necessitent (souvent) beaucoup des données
+d'entrainement
+
+
+
+
+
+---
+# Ça bouge !
+
+2019:
+
+__Mars - INRA__  P. Ezanno et al. _L’Intelligence Artificielle &amp; les
+  Recherches en Santé Animale à l’Inra_. 
+  
+  .small[Rapport du groupe de
+  travail mandaté par le DSA]
+
+__Juin - IRD__  C. Stephens _Using spatial data to unravel the
+complexity of emerging diseases_. 
+
+  .small[Analyse de co-occurrence d'espèces à
+partir de données du GBIF (_Global Biodiversity Information Facility_)]
+
+__Juin - IRD__  F. Masseglia. _BIG DATA : Analyser de GRANDS corpus de
+données scientifiques_
+
+
+---
+
+.pull-left[
+![:scale 84%](img/report_Vilani.jpg)
+]
+
+.pull-right[
+Mars 2018. Mission confiée par le Premier Ministre Édouard Philippe
+
+&gt; _“Dopée par les progrès de l’intelligence artificielle, la révolution du __big data__
+contribue à rendre le monde plus transparent, plus quantifiable, mesurable
+à l’infini.”_
+
+]
+
+---
+# Expériences au Cirad
+
+
+- ![](img/MCDeboin.jpg) __Marie-Claude DEBOIN__ (Dgdrs-Dist)
+
+  _IST et big data : points de rencontre_
+
+- ![](img/MRuiz.jpg) __Manuel Ruiz__ (UMR AGAP, Plateforme SouthGreen)
+
+  _Défis liés aux Big Genomics Data_
+  
+---
+class: inverse, middle, center
+
+# Débat
+
+![:scale 60%](img/debate.webp)
+
+---
+# À la limite
+
+&gt; _“This is a world where __massive amounts of data and applied mathematics replace every other tool__ that might be brought to bear. Out with every theory of human behavior, from linguistics to sociology. Forget taxonomy, ontology, and psychology. Who knows why people do what they do? The point is they do it, and we can track and measure it with unprecedented fidelity. __With enough data, the numbers speak for themselves.__ (…) __We can stop looking for models.__ We can analyze the data without hypotheses about what it might show. We can throw the numbers into the biggest computing clusters the world has ever seen and let statistical algorithms __find patterns where science cannot.__”_
+
+.pull-left[]
+.pull-right[Chris Anderson, 2008, Wired¹]
+
+.footnote[.tiny[¹The End of Theory: The Data Deluge Makes the Scientific Method Obsolete. Wired https://www.wired.com/2008/06/pb-theory/]]
+
+
+---
+# Big noise ?
+
+&gt; _“The rise of __Big Data__ has the potential to help us predict the future, yet __much of it is misleading, useless or distracting__.”_
+
+.pull-right[Nate Silver, 2013, _The Signal and the Noise_]
+
+
+---
+# Corrélations et causalités
+
+.center[
+![:scale 70%](img/spurious-correlations.png)
+]
+
+???
+
+- Plus de données implique plus d'information, mais aussi plus de bruit
+-&gt; plus de chance d'associacions fallacieuses
+
+
+---
+# Quantité vs qualité
+
+
+![:scale 80%](img/faraway_18_when.png)
+
+???
+
+- Y a t'il un compromis à faire ?
+
+- Les modèles statistiques d'analyse doivent souvent être très
+simples, pour capturer les "grands" patterns globaux, des
+comportements moyens.
+
+---
+# Data neutrality
+
+.pull-left[
+&gt; _“Not everything that counts can be counted, and not everything that
+can be counted counts.”_
+
+.align-right[William Bruce Cameron (Sociologist)]
+
+]
+
+.pull-right[
+![:scale 45%](https://f.hypotheses.org/wp-content/blogs.dir/253/files/2016/09/math_destruction.jpg)
+
+&gt; _“How Big Data increases inequality and threatens Democracy”_
+]
+
+
+---
+# Somme-nous préparés ?
+
+
+.pull-left[
+&gt; _“Don’t sleep on the basics. Someone probably solved your problem in the 80s.”_
+
+Nick Strayer (2019). __Using AWK and R to parse 25tb__.¹
+
+]
+
+.pull-right[
+&gt; _“You can have a second computer once you’ve
+&gt; shown you know how to use the first one.”_
+
+F. McSherry, M. Isard, D. G. Murray (2015). __Scalability! but at what cost ?__ _Usenix conference_²
+]
+
+.footnote[
+.small[
+¹ https://livefreeordichotomize.com/2019/06/04/using_awk_and_r_to_parse_25tb/
+
+² https://t.co/oV1Qs6zatz
+]]
+
+
+
+
+---
+# Comment se positionner au Cirad / Bios ?
+
+- On réagit au fur et à mesure ? on se __prépare__ ? comment ?
+
+- __Infrastructure__ logistique ? formation ? partenariat ? collaborations
+?
+
+- On devrait tous nous __former__ d'avantage à l'analyse de données ?
+
+---
+class: middle, center
+
+![:scale 60%](img/bigdata_wordcloud.jpeg)
+
+.huge[__Merci !__]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="macros.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

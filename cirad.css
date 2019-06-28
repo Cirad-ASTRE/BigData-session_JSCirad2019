@@ -1,0 +1,64 @@
+.remark-slide-content {
+  background-image: url(img/banner_rencontres.jpg);
+  background-size: contain;
+  background-position: 0 0;
+  background-origin: border-box;
+  font-size: 30px;
+  margin-left: 80px;
+}
+
+.title-slide {
+  background-image: url(img/banner_rencontres.jpg), url(img/bigdata_wordcloud.jpeg);
+  background-size: contain, 80%;
+  background-position: 0px 0px, 60% 10%; 
+  background-origin: border-box;
+  text-align: left;
+  margin-left: 30px;
+  padding-top: 220px;
+}
+
+.final-slide {
+  background-image: url(img/banner_rencontres.jpg), url(img/bigdata_wordcloud.jpeg);
+  background-size: contain, 60%;
+  background-position: 0px 0px, 60% 10%; 
+  background-origin: border-box;
+  margin-left: 30px;
+  padding-top: 220px;
+}
+
+
+
+.title-slide h1  {
+  margin-top: -70px;
+}
+
+.title-slide h1, h2  {
+  text-align: left;
+}
+
+.title-slide h1, h2, h3  {
+  margin-left: 80px;
+  text-align: right;
+}
+
+.title-slide .remark-slide-number {
+  display: none;
+}
+
+strong {
+  color: rgb(6,128,205);
+}
+
+.huge { font-size: 200% }
+.large { font-size: 130% }
+.small { font-size: 70% }
+.tiny { font-size: 50% }
+
+.remark-slide-content {
+  font-size: 28px;
+  padding: 20px 80px 20px 160px;
+}
+
+.align-right {
+  float: right;
+}
