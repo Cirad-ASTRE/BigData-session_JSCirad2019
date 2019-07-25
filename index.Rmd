@@ -2,7 +2,7 @@
 # title: "Big Data"
 # subtitle: "au Département Bios, Cirad"
 # author: ""
-title: '[Journée Dép. Bios. Montpellier, Juillet 2019](https://cirad-astre.github.io/BigData-session_JSCirad2019/)'
+title: '[Journée Dép. Bios. Montpellier, Juillet 2019](https://umr-astre.pages.mia.inra.fr/BigData-session_JSCirad2019/)'
 output:
   xaringan::moon_reader:
     lib_dir: libs
